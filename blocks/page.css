@@ -1,0 +1,30 @@
+.page{
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    font-family: "Poppins", serif;
+    background-color: #000000;
+    color: #fff;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    -webkit-text-size-adjust: 100%;
+    -ms-text-size-adjust: 100%;
+    -moz-text-size-adjust: 100%;
+
+    overflow: hidden;
+}
+
+h2{
+    font-weight: 400;
+    font-size: 40px;
+    line-height: 105%;
+    color: #fff;
+    padding: 0;
+    margin: 0;
+}
+
+@media screen and (width <= 430px) {
+    h2{
+        font-size: 35px;
+    }
+}
